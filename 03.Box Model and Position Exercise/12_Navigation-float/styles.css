@@ -1,0 +1,133 @@
+html {
+    padding-block: 20px;
+    padding-inline: 70px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body > header {
+    display: flex;
+    border-bottom: 2px SOLID black;
+}
+
+p {
+    flex-direction: column;
+    display: inline;
+    width: 49%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+nav {
+    flex-direction: column;
+    display: inline;
+    width: 49%;
+    padding-left: 80px;
+}
+
+header nav ul li {
+    display: inline;
+    text-decoration: none;
+    color: rgb(183, 157, 91);
+    margin-left: 3%;
+}
+
+header nav ul {
+    margin-top: 20px;
+    margin-left: 157px;
+}
+
+.main {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    display: inline;
+    width: 70%;
+}
+
+aside {
+    flex-direction: column;
+    display: inline;
+    width: 28%;
+    padding-left: 20px;
+}
+
+aside section {
+    margin-right: 40%;
+}
+
+
+
+aside section nav ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+.main main article{
+    padding-right: 50px;
+}
+
+.main main article header h1 {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.main main article section p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.main main article section img:nth-child(1) {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 3px SOLID black;
+    background-color: white;
+    padding: 4px;
+}
+
+.main main article {
+    padding-bottom: 30px;
+}
+
+.inside-text {
+    color: rgb(137, 133, 133);
+    float: right;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.inside-text em {
+    margin-left: 60%;
+}
+
+.text-border {
+    display: block;
+    padding-right: 20px;
+    border-right: 1px SOLID rgb(172, 170, 170);
+    margin-bottom: 20px;
+}
+
+.main main article:nth-child(3) section img {
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 22px;
+    border: 3px SOLID black;
+    background-color: white;
+    padding: 4px;
+}
+
