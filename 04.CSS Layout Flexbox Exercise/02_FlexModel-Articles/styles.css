@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+    padding-inline: 10%;
+    padding-top: 10%;
+}
