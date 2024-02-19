@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 50px;
+    background-color: rgb(189, 187, 187);
+}
+
+.block-box {
+    border: 1px SOLID grey;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(128, 125, 125, 0.8);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-box {
+    display: flex;
+    gap: 10px;
+}
+
+
+.flex-box main {
+    border: 1px SOLID grey;
+    background-color: white;
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 150px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(128, 125, 125, 0.8);
+}
+
+.flex-box aside {
+    border: 1px SOLID grey;
+    background-color: white;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 150px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(128, 125, 125, 0.8);
+}
