@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    border: 2px solid;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section.week {
+    flex-grow: 8;
+    flex-direction: column;
+    align-items: revert;
+}
+
+section.notes {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+span {
+    border: solid 1px black;
+}
