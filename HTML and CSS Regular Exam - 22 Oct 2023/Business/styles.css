@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font: 14px/1.5 'Ubuntu', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    margin-bottom: 0.2em;
+}
+
+header {
+    background: url("images/background.jpg") top/100% auto no-repeat;
+    height: 64vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-top: 20px;
+}
+
+header nav img {
+    width: 70px;
+    height: 50px;
+}
+
+header nav ul {
+    text-decoration: none;
+}
+
+header nav ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: PT Sans;
+    margin-left: 25px;
+}
+
+header article {
+    padding-left: 10%;
+    padding-right: 45%;
+    font-family: PT Serif;
+    color: white;
+}
+
+header article h1 {
+    letter-spacing: 2px;
+    font-size: 3.1em;
+}
+
+header article p {
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-inline: 10%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px SOLID grey;
+}
+
+
+.card h1 {
+    font-family: PT serif;
+}
+
+.card p {
+    padding-bottom: 10px;
+    font-family: PT sans;
+}
+
+.card button {
+    font-family: PT Serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: white;
+    border: 2px SOLID green;
+    color: green;
+    padding-inline: 9px;
+    padding-block: 3px;
+}
+
+.elements-holder {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 10%;
+    padding-bottom: 30px;
+}
+
+.elements-holder h1 {
+    font-family: PT Serif;
+    font-size: 1.8em;
+    color: green;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.images img {
+    display: block;
+    background-color: grey;
+    width: 10vw;
+    border: 1px SOLID grey;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+footer {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(44, 39, 39);
+    gap: 30px;
+    flex-direction: column;
+}
+
+footer section {
+    display: flex;
+    padding-inline: 10%;
+    justify-content: space-between;
+}
+
+.wrapper {
+    font-family: PT serif;
+    width: 300px;
+    color: white;
+}
+
+footer span {
+    padding-inline: 10%;
+    color: white;
+    margin-bottom: -40px;
+    border-top: 1px SOLID grey;
+}
