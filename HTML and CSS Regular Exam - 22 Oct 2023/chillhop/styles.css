@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    border: 2px SOLID black;
+    background-color: rgb(91, 91, 200);
+    border-radius: 9px;
+}
+
+img {
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.button-holder button {
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: 1px SOLID black;
+    border-radius: 5px;
+    background-color: rgb(91, 91, 200);
+    font-weight: 600;
+}
+
+.button-holder button:hover {
+    background-color: rgb(250, 99, 124);
+    color: whitesmoke;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2,
+section h1,
+section p {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2.343em;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+p {
+    text-indent: 55px;
+    line-height: 27px;
+    margin-right: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
