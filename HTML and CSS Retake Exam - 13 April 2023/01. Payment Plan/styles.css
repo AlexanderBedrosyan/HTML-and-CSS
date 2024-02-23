@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+html {
+    font: 12px/1.5 Inter;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(image/background.jpg);
+    background-size: fit;
+    background-repeat: no-repeat;
+    background-position: center -600px;
+}
+
+.site {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container section {
+    flex: 1 1 33%;
+    background-color: white;
+    padding: 15px;
+}
+
+article h4 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+article h2 {
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+
+article span {
+    font-size: 0.4em;
+    color: grey;
+}
+
+article p:first-of-type {
+    color: grey;
+    padding-bottom: 20px;
+}
+
+article p:not(:first-child) {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.get-started {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
