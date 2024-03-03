@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+html {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(165, 163, 163, 0.3), rgba(165, 163, 163, 0.3)), url("images/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(231, 228, 228);
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-block: 12px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 22px;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+header button {
+    padding-inline: 7px;
+    padding-block: 3px;
+    border: 1px SOLID black;
+    border-radius: 8%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.over-picture {
+    padding-left: 220px;
+    padding-top: 120px
+}
+
+.over-picture h1 {
+    font-size: 3em;
+    max-width: 400px;
+    padding-bottom: 70px;
+}
+
+.over-picture p {
+    max-width: 558px;
+    font-size: 17px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.over-picture button {
+    background-color: black;
+    color: white;
+    padding: 10px 19px 10px 19px;
+    border-radius: 6%;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    padding: 50px 50px 30px 50px;
+    text-align: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.wrapper h1 {
+    color: orange;
+    padding-bottom: 30px;
+}
+
+.wrapper footer {
+    font-size: 0.7em;
+    padding-top: 7px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 80px 20px 45px;
+    background-color: rgb(231, 228, 228);
+}
+
+.container {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.container img {
+    width: 25%;
+    height: auto;
+    padding-right: 15px;
+}
+
+.container section h3 {
+    font-size: 1em;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.container section h1 {
+    font-size: 2.1em;
+    padding-bottom: 15px;
+}
+
+.container section p {
+    font-size: 1.1em;
+}
+
+.container section h2 {
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+.container footer {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
+
+article {
+    background-color: rgb(248, 246, 246);
+}
+
+.prices {
+    background-color: white;
+    margin-inline: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.prices div {
+    width: 32%;
+}
+
+.prices div:nth-child(2) {
+    background-color: orange;
+}
+
+.prices div:nth-child(3) {
+    background-color: black;
+    color: white;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans h1 {
+    font-size: 1.2em;
+    padding-block: 30px;
+}
+
+.plans h3 {
+    font-size: 3em;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+.plans p {
+    padding-bottom: 20px;
+}
+
+.plans button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    padding-block: 9px;
+    padding-inline: 18px;
+    border-radius: 5%;
+}
+
+.plans:nth-child(3) button{
+    background-color: white;
+    color: black
+}
+
+.info h1 {
+    padding-top: 10px;
+    padding-bottom: 47px;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 20px;
+}
+
+footer i {
+    font-size: 1.3em;
+}
