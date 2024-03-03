@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+html {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding-inline: 100px;
+    padding-block: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 68%;
+    align-items: stretch;
+    min-height: 40vw;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.left-side section {
+    border: 1px SOLID black;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-inline: 25px;
+}
+
+.left-side section img {
+    float: right;
+}
+
+.right-side { 
+    background-color: whitesmoke;
+    display: flex;
+    width: 32%;
+    min-height: 40vw;
+    border: 1px SOLID black;
+    border-radius: 3px;
+    padding: 50px 20px 20px 20px;
+}
+
+article h1 {
+    font-size: 3em;
+}
+
+article p {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.left-side section article p {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+.left-side section article footer {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+}
+
+.right-side article {
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.right-side article footer {
+    border-top: 1px SOLID rgb(182, 181, 181);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -70px;
+}
+
+.right-side article h1 {
+    font-size: 3.3em;
+    margin-top: -20px;
+    padding-bottom: 60px;
+}
+
+.right-side article p {
+    padding-bottom: 70px;
+}
+
+.right-side article footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.right-side article footer section {
+    padding-left: 10px;
+}
+
+.right-side article footer section h2 {
+    font-size: 1em;
+    padding-top: 10px
+}
+
+.right-side article footer section p {
+    font-size: 0.5em;
+    color: black;
+}
